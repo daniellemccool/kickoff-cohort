@@ -1,11 +1,11 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Plan of Analysis',
+    title: 'Available Cohorts',
     subtitle: '',
     eventInfo: {
-      title: 'Ewout Group Meeting',
-      date: '16/03/2015'
+      title: 'B2B Project Kickoff',
+      date: '23/03/2015'
     },
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
