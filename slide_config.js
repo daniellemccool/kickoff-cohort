@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Available Cohorts',
-    subtitle: '',
+    title: 'Cohorts, model building and a decision aid',
+    subtitle: 'Following the data from start to finish',
     eventInfo: {
       title: 'B2B Project Kickoff',
       date: '23/03/2015'
