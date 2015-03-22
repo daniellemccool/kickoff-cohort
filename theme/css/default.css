@@ -99,9 +99,7 @@ body.loaded {
 }
 
 /* line 78, ../scss/_base.scss */
-input, button {
-  vertical-align: middle;
-}
+
 
 /* line 82, ../scss/_base.scss */
 slides > slide[hidden] {
@@ -1606,15 +1604,19 @@ aside.gdbar img {
   display: none;
 }
 
-label, input, select {
+label{
     display: inline-block;
     vertical-align: baseline;
-    width: 170px;
+    width: 200px;
 }
 
-label {
-   
+input, select {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 200px;
 }
+
 
 @media print {
   /* line 978, ../scss/default.scss */
